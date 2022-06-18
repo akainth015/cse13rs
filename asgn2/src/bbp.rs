@@ -1,5 +1,3 @@
-use crate::newton::sqrt;
-
 pub fn pi() -> (f64, u32) {
     let mut k = 1u32;
     let mut term = 1f64;
